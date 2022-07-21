@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class hienThiKyTu {
+    public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.next();
+        int index = sc.nextInt();
+        System.out.println(s.charAt(index - 1));
+	}
+}
